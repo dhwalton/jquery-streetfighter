@@ -30,7 +30,7 @@ $(document).ready(function() {
     	$('.ryu-throwing').hide();
     	$('.ryu-ready').show();
     });
-    $(document).keydown(function() { 
+    $(document).keydown(function(event) { 
 		if (event.keyCode == 88) {
 			$('.ryu-still').hide();
 			$('.ryu-ready').hide();
